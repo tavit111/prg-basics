@@ -1,0 +1,12 @@
+###
+# A program that checks whether a tree can be cut down
+# based on its circumference.
+#
+import math
+
+circumference = float(input('Enter tree circumference in cm: '))
+
+diameter = circumference / math.pi
+can_cut = diameter >= 50
+
+print(f'Tree can be cut down: {can_cut}')

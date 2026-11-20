@@ -4,6 +4,12 @@ def m_to_cm(n):
 def cm_to_m(n):
     return n/100
 
+def cm_to_inches(cm):
+    return cm / 2.54
+
+def feet_inches_to_cm(feet, inches):
+    return feet * 30.48 + inches * 2.54
+
 if __name__ == "__main__":
     # only execute when you run this module
     # so you can test the functions in this place

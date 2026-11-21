@@ -1,0 +1,12 @@
+###
+# Prints a two-dimensional array
+#
+numbers = [
+    [1, 2, 3, 4],
+    [5, 6, 7, 8]
+]
+
+for row in numbers:
+    for number in row:
+        print(number, end=" ")
+    print()
